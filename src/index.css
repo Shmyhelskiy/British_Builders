@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root {
+  margin-inline: 10px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  :root {
+    margin-inline: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+@theme {
+  --color-LavenderBlue: #B5B8FF;
+}
